@@ -1,7 +1,7 @@
 # semantic segmentaiton
 <img src=./imgs/segmentaiton1.jpg>
 
-- [model architecture](#model_architecture)
+- [Major papers](#major_papers)
   - [2014](#2014)
     - [SDS](#sds) (ECCV'14)
   - [2015](#2015)
@@ -12,6 +12,7 @@
     - [DeepLab](#deeplab) (ICLR'15)
     - [U-Net](#unet) (MICCAI'15)
   - [2016](#2016)
+    - [Attention_to_Scale](#attention_to_scale) (CVPR'16)
     - [dilatednet](#dilatednet) (ICLR'16)
     - [parsenet](#parsenet) (arxiv'16)
     - [DeepLabv2](#deeplabv2) (arxiv'16)
@@ -33,14 +34,16 @@
   - [2019](#2019)
     - [Decoders Matter for Semantic Segmentation](#decoder_matters) (CVPR'19)
     - [HRNet](#hrnet) (TPAMI'19)
-    - [Feature Pyramid Networks](#fpn) (CVPR'19)
+    - [DANet](#danet) (CVPR'19)
     - [auto-DeepLab](#auto_deeplab) (CVPR'19)
+    - [Co-occurrent Features](#co_occurrent) (CVPR'19)
     - [assymetric nonlocal NN](#assymetrci_nonlocal_nn) (ICCV'19)
     - [EMANet](#emanet) (ICCV'19)
     - [gated scnn](#gated_scnn) (ICCV'19)
     - [FastFCN](#fastfcn) (arxiv'19)
     - [convCRF](#convcrf) (BMVC'19)
   - [2020](#2020)
+    - [Height-driven Attention](#height_driven_attention) (CVPR'20)
     - [dynamic routing](#dynamic_routing) (CVPR'20)
     - [cascade PSP](#cascade_psp) (CVPR'20)
     - [pointrend](#pointrend) (CVPR'20)
@@ -50,6 +53,8 @@
     - [OCR](#ocr) (ECCV'20)
     - [SegFix](#segfix) (ECCV'20)
     - [Semantic Flow](#semantic_flow) (ECCV'20)
+    - [Hierarchical Multi-Scale Attention](#hierachical_multi_scale_attention) (arxiv'20)
+    - [Rethinking Pre-training and Self-training](#rethinking_pre_training) (arxiv'20)
   - [categorize all models](#categorize)
     
 - [real time semantic segmentation model](#real_time)
@@ -71,7 +76,7 @@
 
 - [how to win segmentation competition](#how_to_win_segmentation_competition)
 
-<a name="model_architecture"></a>
+<a name="major_papers"></a>
 
 # model architecture
 
@@ -169,6 +174,15 @@
 <a name="2016"></a>
 
 ## 2016
+
+<a name="attention_to_scale"></a>
+
+### [Attention to Scale: Scale-aware Semantic Image Segmentation](https://arxiv.org/abs/1511.03339) (CVPR'16)
+#### <strong>overview</strong>
+***
+#### <strong>issue</strong>
+***
+<div align="center"><img src='./imgs/attention_to_scale.jpg' width=700></div>
 
 <a name="dilatednet"></a>
 
@@ -339,6 +353,15 @@
 ***
 <img src='./imgs/hrnet.jpg'>
 
+<a name="danet"></a>
+
+### [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983) (TPAMI'19)
+#### <strong>overview</strong>
+***
+#### <strong>issue</strong>
+***
+<img src='./imgs/danet.jpg'>
+
 <a name="auto_deeplab"></a>
 
 ### [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.pdf) (CVPR'19)
@@ -347,6 +370,15 @@
 #### <strong>issue</strong>
 ***
 <img src='./imgs/auto_deeplab.jpg'>
+
+<a name="co_occurrent"></a>
+
+### [Co-occurrent Features in Semantic Segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Co-Occurrent_Features_in_Semantic_Segmentation_CVPR_2019_paper.pdf) (CVPR'19)
+#### <strong>overview</strong>
+***
+#### <strong>issue</strong>
+***
+<img src='./imgs/co_occurrent.jpg'>
 
 <a name="assymetrci_nonlocal_nn"></a>
 
@@ -396,6 +428,16 @@
 <a name="2020"></a>
 
 ## 2020
+
+<a name="height_driven_attention"></a>
+
+### [Cars Can’t Fly up in the Sky: Improving Urban-Scene Segmentation via Height-driven Attention Networks](https://arxiv.org/abs/2003.05128v3) (CVPR'20)
+#### <strong>overview</strong>
+***
+#### <strong>issue</strong>
+***
+<img src='./imgs/cars_cant_fly_1.jpg'>
+<img src='./imgs/cars_cant_fly_2.jpg'>
 
 <a name="dynamic_routing"></a>
 
@@ -481,259 +523,28 @@
 ***
 <img src='./imgs/semantic_flow.jpg'>
 
-<a name=""></a>
+<a name="hierachical_multi_scale_attention"></a>
 
-### []() ()
+### [Hierarchical Multi-Scale Attention for Semantic Segmentation](https://arxiv.org/abs/2005.10821) (arxiv'20)
 #### <strong>overview</strong>
 ***
 #### <strong>issue</strong>
 ***
-<img src='./imgs/'>
+<img src='./imgs/hierarchical_multi_scale_attention.jpg'>
 
-<a name=""></a>
+<a name="rethinking_pre_training"></a>
 
-### []() ()
+### [Rethinking Pre-training and Self-training](https://arxiv.org/abs/2006.06882v1) (arxiv'20)
 #### <strong>overview</strong>
 ***
 #### <strong>issue</strong>
 ***
-<img src='./imgs/'>
+<img src='./imgs/rethinking_pre_training_1.jpg'>
+<img src='./imgs/rethinking_pre_training_2.jpg'>
 
-<a name=""></a>
+<a name="real_time"></a>
 
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-<a name=""></a>
-
-### []() ()
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<img src='./imgs/'>
-
-
+# real time semantic segmentation
 
 <a name="espnet"></a>
 
@@ -752,3 +563,69 @@
 #### <strong>issue</strong>
 ***
 <img src='./imgs/'>
+
+<a name="contextnet"></a>
+
+### [ContextNet: Exploring Context and Detail for Semantic Segmentation in Real-time](http://bmvc2018.org/contents/papers/0286.pdf) (BMVC'18)
+#### <strong>overview</strong>
+***
+#### <strong>issue</strong>
+***
+<img src='./imgs/context_net.jpg'>
+
+<a name="fasterseg"></a>
+
+### [FASTERSEG: SEARCHING FOR FASTER REAL-TIME SEMANTIC SEGMENTATION](https://openreview.net/pdf?id=BJgqQ6NYvB) (ICLR'20)
+#### <strong>overview</strong>
+***
+#### <strong>issue</strong>
+***
+<img src='./imgs/faster_seg_1.jpg' width=700>
+<img src='./imgs/faster_seg_2.jpg' width=700>
+
+<a name="loss_function"></a>
+
+# loss function
+
+### Binary_Cross_Entropy
+### Weighted_Cross_Entropy
+### Focal Loss
+### Dice Loss
+### Combo Loss
+### lovasz hinge
+
+# Competition overview / Top solution
+##  [Understanding Clouds from Satellite Images](https://www.kaggle.com/c/understanding_cloud_organization)
+### Overview
+
+### Top solutions
+
+#### 1st place
+
+#### 2nd place
+
+#### 3rd place
+
+## [SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
+### Overview
+
+### Top solutions
+
+#### 1st place
+
+#### 2nd place
+
+#### 3rd place
+
+## [TGS Salt Identification Challenge](https://www.kaggle.com/c/tgs-salt-identification-challenge)
+### Overview
+
+### Top solutions
+
+#### 1st place
+
+#### 2nd place
+
+#### 3rd place
+
+
