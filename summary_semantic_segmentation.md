@@ -2,8 +2,6 @@
 <img src=./imgs/segmentaiton1.jpg>
 
 - [Major papers](#major_papers)
-  - [2014](#2014)
-    - [SDS](#sds) (ECCV'14)
   - [2015](#2015)
     - [FCN](#fcn) (CVPR'15)
     - [Hypercolumns](#hypercolumns) (CVPR'15)
@@ -13,7 +11,6 @@
     - [U-Net](#unet) (MICCAI'15)
   - [2016](#2016)
     - [Attention_to_Scale](#attention_to_scale) (CVPR'16)
-    - [dilatednet](#dilatednet) (ICLR'16)
     - [parsenet](#parsenet) (arxiv'16)
     - [DeepLabv2](#deeplabv2) (arxiv'16)
   - [2017](#2017)
@@ -55,7 +52,6 @@
     - [Semantic Flow](#semantic_flow) (ECCV'20)
     - [Hierarchical Multi-Scale Attention](#hierachical_multi_scale_attention) (arxiv'20)
     - [Rethinking Pre-training and Self-training](#rethinking_pre_training) (arxiv'20)
-  - [categorize all models](#categorize)
     
 - [real time semantic segmentation model](#real_time)
   - [ESPNet](#espnet) (ECCV'18)  
@@ -78,7 +74,7 @@
 
 <a name="major_papers"></a>
 
-# model architecture
+# major papers
 
 <a name="2015"></a>
 
@@ -156,7 +152,7 @@
 #### <strong>issue</strong>
 ***
 - By removing pool4 and pool5, feature map keep high resolution
-- it increase flops
+- it increase computational cost
 
 <img src='./imgs/deeplabv1_1.jpg' width=500> <img src='./imgs/deeplabv1_2.jpg'
  width=400>
@@ -183,15 +179,6 @@
 #### <strong>issue</strong>
 ***
 <div align="center"><img src='./imgs/attention_to_scale.jpg' width=700></div>
-
-<a name="dilatednet"></a>
-
-### [Deep Dilated Convolutional Nets for the Automatic Segmentation of Retinal Vessels](https://arxiv.org/abs/1905.12120) (ICLR'16)
-#### <strong>overview</strong>
-***
-#### <strong>issue</strong>
-***
-<div align="center"><img src='./imgs/dilatednet.jpg' width=700></div>
 
 <a name="parsenet"></a>
 
@@ -355,7 +342,7 @@
 
 <a name="danet"></a>
 
-### [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983) (TPAMI'19)
+### [Dual Attention Network for Scene Segmentation](https://arxiv.org/abs/1809.02983) (CVPR'19)
 #### <strong>overview</strong>
 ***
 #### <strong>issue</strong>
